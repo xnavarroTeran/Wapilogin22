@@ -1,0 +1,33 @@
+{
+    "LANDING": {
+      "MAIN_TITLE": "Normas Internaciones para el Ejercicios Profesional de la Auditoría Interna (NIEPAI)",
+      "SUB_TITLE": "La Auditoría Interna es una actividad independiente y objetiva de aseguramiento y consulta, concebida para agregar valor y mejorar las operaciones de una organización.",
+      "LINE2": "Testing NGX-translate",
+      "LINE3": "Greetings everyone! I am Shubhrank Rastogi",
+      "SELCOMPANY": "Seleccione una empresa",
+      "TT_LOGIN": "Clic aqui para ingresar a empresa",
+      "NOTVALIDATED": "El usuario no ha sido validado. Clic Re-enviar para recibir un nuevo correo de validación.",
+      "PROPERTY": {
+        "LINE": "Translating using property binding"
+      }
+    },
+    "GLOBAL": {
+        "CONTINUE": "Continue",
+        "LOGIN": "Login",
+        "CANCEL": "Cancel",
+        "PH_EMAIL":"Enter your email...",
+        "PH_PWD": "Enter your password...",
+        "FORGOT_PWD": "Forgot my password",
+        "REMEMBERME": "Remember me",
+        "RESEND": "Resend"
+    },
+    "FORMATS": {
+      "DATE": "MM/DD/YYYY"
+    },
+    "ERRORS": {
+        "REQUIRED": "Campo es requirido, no puede quedar vacio.",
+        "NOEMAIL": "Correo electrónico no existe en el catalogo de usuarios. ",
+        "BADPWD": "contraseña es invalida."
+        
+    }
+  }

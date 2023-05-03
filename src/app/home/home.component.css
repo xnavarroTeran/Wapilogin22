@@ -1,0 +1,211 @@
+
+.container {
+    padding: 5px;
+    height: 100vh;
+  }
+  
+  .home-title-font {
+    font-family:'Raleway', sans-serif;
+    letter-spacing: 2px; 
+    font-weight: bold; 
+    color: white; 
+    margin: 0; 
+    font-size: 3rem; 
+    letter-spacing: 10px; 
+    text-shadow:2px 0 0;
+  }
+  .grid-item {
+    padding: 10px;
+    height: 100px;
+  }
+
+  .home-left-panel {
+    padding-top: 2.25em !important; 
+    padding-right: 2.5em !important; 
+    background-color: #3d434e;
+    color: #fff;
+  }
+
+
+@media screen and (max-width: 767px) {
+    .home-left-panel-height {
+        max-height: 320px;;
+    }
+    .landing-frame {
+        min-height: 650px;
+        min-width: 100%;
+    }
+    .landing-logo {
+        display: none;
+    }
+    
+    .logo-left {
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .landing-frame {
+        min-height: 950px;
+        min-width: 100%;
+    }
+    .landing-logo {
+        width: 65px;
+        height: auto;
+    }
+    
+    .logo-left {
+        margin-left: 20px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .home-left-panel-height {
+        max-height: 630px;;
+    }
+    .landing-frame {
+        min-height: 950px;
+        min-width: 100%;
+    }
+    .landing-logo {
+        width: 120px;
+        height: auto;
+    }
+    
+    .logo-left {
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .home-left-panel-height {
+        max-height: 630px;
+    }
+    .landing-frame {
+        min-height: 950px;
+        min-width: 100%;
+    }
+
+    .landing-logo {
+        width: 120px;
+        height: auto;
+    }
+    
+    .logo-left {
+        margin-left: 100px;
+    }
+
+}
+
+
+/* Brought from layout.css */
+
+
+.section {
+    display: block;
+    clear: both;
+   
+    overflow: hidden;
+}
+
+.intro {
+    position: relative;
+    background-color: #3d434e;
+    color: #fff;
+}
+.intro .bg, .intro .txt {
+    position: relative;
+    float: left;
+    min-height: 630px;
+    height: 100%;
+    width: 50%;
+}
+.intro .bg {
+    z-index: 0;
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/audit.jpg");
+}
+.intro .txt {
+    padding: 8.25em 4em 4em 7.5em;
+}
+.intro .txt .cntnt {
+    position: relative;
+    z-index: 10;
+}
+.intro .txt .txtbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.intro .divider {
+    width: 8.125rem;
+    height: 0.125rem;
+    background-color: #18c2e7;
+    display: inline-block;
+}
+
+.intro h1 {
+    margin-top: 20px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+}
+.intro p {
+    color: #dfe0e3;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.intro .button {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media all and (min-width: 64.063em) and (max-width: 90em) {
+    .intro .bg, .intro .txt { max-height: 630px; }
+}
+@media all and (max-width: 1024px) {
+    .intro .txt {
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        padding: 8.25em 2em;
+        background-color: #23252b;
+    }
+    .intro .txt .txtbg {
+        display: block;
+        opacity: 0.1;
+        filter: alpha(opacity=10);
+        background: url("../../assets/audit.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    .intro .bg {
+        display: none;
+        height: 50%;
+        min-height: 520px;
+        width: 100%;
+    }
+}
+@media all and (max-width: 767px) {
+    .intro .bg, .intro .txt {
+        position: relative;
+        float: none;
+        height: 50%;
+        max-height: 320px;
+        width: 100%;
+    }
+}
+
+
+

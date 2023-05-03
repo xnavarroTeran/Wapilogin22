@@ -1,0 +1,11 @@
+.divider-lp {
+    width: 8.125rem;
+    height: 0.125rem;
+    background-color: #e76e18;
+    display: inline-block;
+}
+
+.ph01Subbody {
+    min-height: 300px;
+}
+

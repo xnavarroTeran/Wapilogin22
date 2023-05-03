@@ -1,0 +1,31 @@
+
+
+
+<div fxLayout="column" fxLayoutGap="10px" class="container-fluid" [ngStyle]="{'background-color': landingbg}">
+    <div fxLayout="row" fxFlex="33%" class="block-1 w-top-20">
+      <div fxFlex fxFlexFill class="grid-item">
+        <a id='a_imgProductLogo' aria-label="Home" class="logo-left" href="MenuController?outcome=home" role="button">
+            <img id="imgLandingProdLogo" src="{{applogo}}" class="landing-logo"> 
+            
+
+        </a>
+        <span class="home-title-font w-margin-left-50">{{apptitle | uppercase}}</span>
+      </div>
+    </div>
+    <div fxLayout.gt-sm="row" fxLayout.lt-md="column" 
+        fxLayoutGap="10px" fxFlex="33%" class="block-2">
+      <div fxFlex.gt-sm="50%" fxLayoutAlign="center"fxFlex.lt-md="50%" fxLayoutAlign="center center" 
+        fxFlexFill class="home-left-panel home-left-panel-height">
+            <div class="divider"></div>
+        
+      </div>
+      <div fxFlex.gt-sm="50%" fxFlex.lt-md="50%" fxLayoutAlign="center center" 
+        fxFlexFill class="grid-item">C</div>
+    </div>
+    <div fxLayout="row" fxLayoutGap="10px" fxFlex="33%" class="block-3">
+      <div fxFlex.gt-sm="50%" fxFlex.lt-md="50%" fxLayoutAlign="center center" 
+        fxFlexFill class="grid-item">D</div>
+      <div fxFlex.gt-sm="50%" fxFlex.lt-md="50%" fxLayoutAlign="center center" 
+        fxFlexFill class="grid-item">E</div>
+    </div>
+  </div>
